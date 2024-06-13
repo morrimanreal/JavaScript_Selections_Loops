@@ -27,12 +27,12 @@ console.log("EXERCISE 3:\n==========\n");
 let i = 1;
 
 console.log("EXERCISE 3.1:\n==========\n");
-// while ( i <= 100 ) {
-//   if (i % 2 != 0) {
-//     console.log(i);
-//   }
-//   i++;
-// }
+while ( i <= 100 ) {
+  if (i % 2 != 0) {
+    console.log(i);
+  }
+  i++;
+}
 
 do {
   if ( i % 2 != 0) {
@@ -44,16 +44,16 @@ do {
 console.log("EXERCISE 3.2:\n==========\n");
 i = 1;
 
-// while(i <= 100) {
-//   if ( i % 3 == 0 && i % 5 == 0) {
-//     console.log(i + " FIZZBUZZ");
-//    } else if ( i % 3 == 0) {
-//     console.log(i + " FIZZ");
-//    } else if ( i % 5 == 0) {
-//     console.log(i + " BUZZ");
-//    }
-//    i++;
-// }
+while(i <= 100) {
+  if ( i % 3 == 0 && i % 5 == 0) {
+    console.log(i + " FIZZBUZZ");
+   } else if ( i % 3 == 0) {
+    console.log(i + " FIZZ");
+   } else if ( i % 5 == 0) {
+    console.log(i + " BUZZ");
+   }
+   i++;
+}
 
 do {
   if ( i % 3 == 0 && i % 5 == 0) {
